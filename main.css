@@ -514,7 +514,7 @@ body {
         transparent 30%,
         var(--c)
     );
-    z-index: 100%;
+    z-index: 100;
 }
 .flower_grass_leaf--1 {
     top:-6%;
@@ -974,7 +974,7 @@ body {
 .flower_g-fr {
     position: absolute;
     bottom: -4vmin;
-    left: vmin;
+    left: 2vmin;
     transform-origin: bottom left;
     z-index: 10;
     -webkit-animation: flower_g-fr-ans 2s linear infinite;
@@ -1542,7 +1542,11 @@ body {
     animation: growing-grass-ans 1s 2s backwards;
 }
 
-
+/* FIXED: Commented this out so your animations actually play */
+/* .container * {
+    -webkit-animation-play-state: paused !important;
+    animation-play-state: paused !important;
+} */
 
 
 

@@ -78,63 +78,60 @@ body {
     -webkit-animation: moving-flower-1 4s linear infinite;
     animation: moving-flower-1 4s linear infinite;
 }
-
-/* FIXED: Added spaces to target child elements */
-.flower--1 .flower_line{
+.flower--1.flower_line{
     height: 70vmin;
     -webkit-animation-delay: 0.2s;
     animation-delay: 0.3s;
 }
-.flower--1 .flower_line_leaf--1{
-    -webkit-animation: blooming-flower-right var(--fl-speed) 1.6s backwards;
-    animation: blooming-flower-right var(--fl-speed) 1.6s backwards;
+.flower--1.flower_line_leaf--1{
+    -webkit-animation: blomming-flower-right var(--fl-speed) 1.6s backwards;
+    animation: blomming-flower-right var(--fl-speed) 1.6s backwards;
 }
-.flower--1 .flower_line_leaf--2{
-    -webkit-animation: blooming-flower-left var(--fl-speed) 1.4s backwards;
-    animation: blooming-flower-left var(--fl-speed) 1.4s backwards;
+.flower--1.flower_line_leaf--2{
+    -webkit-animation: blomming-flower-left var(--fl-speed) 1.4s backwards;
+    animation: blomming-flower-left var(--fl-speed) 1.4s backwards;
 }
-.flower--1 .flower_line_leaf--3{
-    -webkit-animation: blooming-flower-right var(--fl-speed) 1.2s backwards;
-    animation: blooming-flower-right var(--fl-speed) 1.2s backwards;
+.flower--1.flower_line_leaf--3{
+    -webkit-animation: blomming-flower-right var(--fl-speed) 1.2s backwards;
+    animation: blomming-flower-right var(--fl-speed) 1.2s backwards;
 }
-.flower--1 .flower_line_leaf--4{
-    -webkit-animation: blooming-flower-left var(--fl-speed) 1s backwards;
-    animation: blooming-flower-left var(--fl-speed) 1s backwards;
+.flower--1.flower_line_leaf--4{
+    -webkit-animation: blomming-flower-left var(--fl-speed) 1s backwards;
+    animation: blomming-flower-left var(--fl-speed) 1s backwards;
 }
-.flower--1 .flower_line_leaf--5{
-    -webkit-animation: blooming-flower-right var(--fl-speed) 1.8s backwards;
-    animation: blooming-flower-right var(--fl-speed) 1.8s backwards;
+.flower--1.flower_line_leaf--5{
+    -webkit-animation: blomming-flower-right var(--fl-speed) 1.8s backwards;
+    animation: blomming-flower-right var(--fl-speed) 1.8s backwards;
 }
-.flower--1 .flower_line_leaf--6{
-    -webkit-animation: blooming-flower-left var(--fl-speed) 2s backwards;
-    animation: blooming-flower-left var(--fl-speed) 2s backwards;
+.flower--1.flower_line_leaf--6{
+    -webkit-animation: blomming-flower-left var(--fl-speed) 2s backwards;
+    animation: blomming-flower-left var(--fl-speed) 2s backwards;
 }
 .flower--2{
     left: 50%;
     transform: rotate(20deg);
     -webkit-animation: moving-flower-2 4s linear infinite;
-    animation: moving-flower-2 4s linear infinite;
 }
-.flower--2 .flower_line{
+.flower--2.flower_line{
     height: 60vmin;
     -webkit-animation-delay: 0.6s;
     animation-delay: 0.6s;
 }
-.flower--2 .flower_line_leaf--1{
-    -webkit-animation: blooming-flower-right var(--fl-speed) 2.2s backwards;
-    animation: blooming-flower-right var(--fl-speed) 2.2s backwards;
+.flower--2.flower_line_leaf--1{
+    -webkit-animation: blomming-flower-right var(--fl-speed) 2.2s backwards;
+    animation: blomming-flower-right var(--fl-speed) 2.2s backwards;
 }
-.flower--2 .flower_line_leaf--2{
-    -webkit-animation: blooming-flower-left var(--fl-speed) 1.7s backwards;
-    animation: blooming-flower-left var(--fl-speed) 1.7s backwards;
+.flower--2.flower_line_leaf--2{
+    -webkit-animation: blomming-flower-left var(--fl-speed) 1.7s backwards;
+    animation: blomming-flower-left var(--fl-speed) 1.7s backwards;
 }
-.flower--2 .flower_line_leaf--3{
-    -webkit-animation: blooming-flower-right var(--fl-speed) 1.5s backwards;
-    animation: blooming-flower-right var(--fl-speed) 1.5s backwards;
+.flower--2.flower_line_leaf--3{
+    -webkit-animation: blomming-flower-right var(--fl-speed) 1.5s backwards;
+    animation: blomming-flower-right var(--fl-speed) 1.5s backwards;
 }
-.flower--2 .flower_line_leaf--4{
-    -webkit-animation: blooming-flower-left var(--fl-speed) 1.3s backwards;
-    animation: blooming-flower-left var(--fl-speed) 1.3s backwards;
+.flower--2.flower_line_leaf--4{
+    -webkit-animation: blomming-flower-left var(--fl-speed) 1.3s backwards;
+    animation: blomming-flower-left var(--fl-speed) 1.3s backwards;
 }
 .flower--3 {
     left: 50%;
@@ -142,25 +139,25 @@ body {
     -webkit-animation: moving-flower-3 4s linear infinite;
     animation: moving-flower-3 4s linear infinite;
 }
-.flower--3 .flower_line{
+.flower--3.flower_line{
     -webkit-animation-delay: 0.9s;
     animation-delay: 0.9s;
 }
-.flower--3 .flower_line_leaf--1{
-    -webkit-animation: blooming-flower-right var(--fl-speed) 2.5s backwards;
-    animation: blooming-flower-right var(--fl-speed) 2.5s backwards;
+.flower--3.flower_line_leaf--1{
+    -webkit-animation: blomming-flower-right var(--fl-speed) 2.5s backwards;
+    animation: blomming-flower-right var(--fl-speed) 2.5s backwards;
 }
-.flower--3 .flower_line_leaf--2{
-    -webkit-animation: blooming-flower-left var(--fl-speed) 2.3s backwards;
-    animation: blooming-flower-left var(--fl-speed) 2.3s backwards;
+.flower--3.flower_line_leaf--2{
+    -webkit-animation: blomming-flower-left var(--fl-speed) 2.3s backwards;
+    animation: blomming-flower-left var(--fl-speed) 2.3s backwards;
 }
-.flower--3 .flower_line_leaf--3{
-    -webkit-animation: blooming-flower-right var(--fl-speed) 2.1s backwards;
-    animation: blooming-flower-right var(--fl-speed) 2.1s backwards;
+.flower--3.flower_line_leaf--3{
+    -webkit-animation: blomming-flower-right var(--fl-speed) 2.1s backwards;
+    animation: blomming-flower-right var(--fl-speed) 2.1s backwards;
 }
-.flower--3 .flower_line_leaf--4{
-    -webkit-animation: blooming-flower-left var(--fl-speed) 1.9s backwards;
-    animation: blooming-flower-left var(--fl-speed) 1.9s backwards;
+.flower--3.flower_line_leaf--4{
+    -webkit-animation: blomming-flower-left var(--fl-speed) 1.9s backwards;
+    animation: blomming-flower-left var(--fl-speed) 1.9s backwards;
 }
 .flower_leafs {
     position: relative;
@@ -514,7 +511,7 @@ body {
         transparent 30%,
         var(--c)
     );
-    z-index: 100;
+    z-index: 100%;
 }
 .flower_grass_leaf--1 {
     top:-6%;
@@ -754,7 +751,6 @@ body {
         var(--dark-color) 60%
     );
     -webkit-mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
-    mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 }
 .flower_g-right--1 {
     -webkit-animation: flower-g-right-ans 2.5s linear infinite;
@@ -975,7 +971,7 @@ body {
 .flower_g-fr {
     position: absolute;
     bottom: -4vmin;
-    left: 2vmin;
+    left: vmin;
     transform-origin: bottom left;
     z-index: 10;
     -webkit-animation: flower_g-fr-ans 2s linear infinite;
@@ -1005,7 +1001,6 @@ body {
     border-top-left-radius: 100%;
     border-left: 2vmin solid #079097;
     -webkit-mask-image: linear-gradient(to top, transparent 25%, #079097 50%);
-    mask-image: linear-gradient(to top, transparent 25%, #079097 50%);
     position: relative;
     z-index: 1;
 }
@@ -1024,12 +1019,6 @@ body {
     ),
     linear-gradient(to bottom right, #23f0ff 45%, transparent 50%, transparent);
     -webkit-mask-image: linear-gradient(
-        to bottom right,
-        #159faa 40%,
-        transparent 50%,
-        transparent
-    );
-    mask-image: linear-gradient(
         to bottom right,
         #159faa 40%,
         transparent 50%,
@@ -1168,11 +1157,6 @@ body {
         transparent 40%,
         #079097 80%
     ) !important;
-    mask-image: linear-gradient(
-        to bottom,
-        transparent 40%,
-        #079097 80%
-    ) !important;
 }
 .long-g--1 .leaf--1 {
     --w: 5vmin;
@@ -1194,11 +1178,6 @@ body {
         transparent 50%,
         #079097 80%
     ) !important;
-    mask-image: linear-gradient(
-        to top, 
-        transparent 50%,
-        #079097 80%
-    ) !important;
 }
 .long-g--2 .leaf--1,
 .long-g--3 .leaf--1 {
@@ -1215,11 +1194,6 @@ body {
         transparent 40%,
         #079097 80%
     ) !important;
-    mask-image: linear-gradient(
-        to top,
-        transparent 40%,
-        #079097 80%
-    ) !important;
 }
 .long-g-4 {
     left: 25vmin;
@@ -1229,11 +1203,6 @@ body {
 }
 .long-g-4 .leaf {
     -webkit-mask-image: linear-gradient(
-        to top,
-        transparent 50%,
-        #079097 80%
-    ) !important;
-    mask-image: linear-gradient(
         to top,
         transparent 50%,
         #079097 80%
@@ -1270,11 +1239,6 @@ body {
     border-top-left-radius: 100%;
     border-left: 2vmin solid var(--c);
     -webkit-mask-image: linear-gradient(
-        to top,
-        transparent 20%,
-        var(--dark-color)
-    );
-    mask-image: linear-gradient(
         to top,
         transparent 20%,
         var(--dark-color)
@@ -1586,12 +1550,10 @@ body {
         transform: scale(0);
     }
 }
-
-/* FIXED: Commented this out so your animations actually play */
-/* .container * {
+.container * {
     -webkit-animation-play-state: paused !important;
     animation-play-state: paused !important;
-} */
+}
 
 
 
